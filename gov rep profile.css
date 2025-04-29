@@ -1,0 +1,204 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #0056b3; /* Dark blue */
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+
+/* Profile Container */
+.profile-container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Profile Header */
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-info h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #0056b3; /* Dark blue */
+}
+
+.profile-info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+.profile-info p {
+    color: #777;
+}
+
+/* Profile Ministry */
+.profile-ministry {
+    margin-bottom: 2rem;
+}
+
+.profile-ministry h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #0056b3;
+}
+
+.profile-ministry p {
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Profile Details */
+.profile-details {
+    margin-bottom: 2rem;
+}
+
+.profile-details h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #0056b3; /* Dark blue */
+}
+
+.profile-details p {
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.contact-info ul,
+.social-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 0.5rem;
+}
+
+.social-links li {
+    margin-bottom: 0.3rem;
+}
+
+.social-links a {
+    color: #007bff; /* Blue */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #0056b3; /* Darker blue */
+}
+
+/* Profile Achievements */
+.profile-achievements {
+    margin-bottom: 2rem;
+}
+
+.profile-achievements h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #0056b3; /* Dark blue */
+}
+
+.profile-achievements ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.profile-achievements li {
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.footer-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.footer-nav {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-nav li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-nav li a:hover {
+    color: #ddd;
+}
